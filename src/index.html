@@ -11,7 +11,27 @@
 </head>
 
 <body>
-    <div id="app"></div>
+    <div id="app">
+        <div class="timer">
+            <h2>Countdown Timer</h2>
+            <div class="card mx-auto" style="width: 18em;">
+                <div class="card-body">
+            
+                <input class="form-control mx-auto" type="number" placeholder="Minutes" id="minutes" min="0" max="60">
+                <input class="form-control mx-auto mt-2" type="number" placeholder="Seconds" id="seconds" min="0"
+                    max="59">
+            
+            <div class="time-remaining"></div>
+            <div class="timer-buttons">
+                <button id="start-button" class="btn btn-primary">Start</button>
+                <button id="stop-button" class="btn btn-primary">Stop</button>
+                <button id="reset-button" class="btn btn-primary">Reset</button>
+            </div>
+        </div>
+        </div>
+        </div>
+
+    </div>
 
     <!-- script -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"

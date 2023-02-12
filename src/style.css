@@ -8,8 +8,22 @@
     color: #314457;
 }
 
-
-@media only screen and (max-width: 415px) {
-    
-    
+.timer {
+    width: 400px;
+    margin: 0 auto;
+    text-align: center;
 }
+
+
+.time-remaining {
+    font-size: 48px;
+    margin: 50px 0;
+}
+
+.btn {
+    width: 5em;
+}
+
+
+
+@media only screen and (max-width: 415px) {}
